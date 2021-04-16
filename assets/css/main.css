@@ -86,16 +86,13 @@ input, select, textarea {
 	}
 
 	.greeting {
-		width: 5em;
-		right: 0.2em;
-		position: absolute;
-		margin-top: 2em;
-		height: 2em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
 		font-size: 150px;
 		font-weight: 600;
-		/* background: linear-gradient(#F8B195, #F67280, #C06C84, #6C5B7B, #355C7D); */
 		background: linear-gradient(#FF7B89, #8A5082, #6F5F90, #758EB7, #A5CAD2);
-		/* background: linear-gradient(#DC8665, #138086, #534666, #CD7672, #EEB462); */
 		-webkit-background-clip: text;
 		background-clip: text;
 		-webkit-text-fill-color: transparent;
