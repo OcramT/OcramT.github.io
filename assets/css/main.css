@@ -95,7 +95,10 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f4f4f4;
+		/* background-color: rgb(36,36,36); */
+		/* background-image: linear-gradient(147deg, #DC8665, #138086, #534666, #CD7672, #EEB462); */
+  		background-image: linear-gradient(147deg, #F8B195, #F67280, #C06C84, #6C5B7B, #355C7D);
+		/* background-image: linear-gradient(to right, #FF7B89, #8A5082, #6F5F90, #758EB7, #A5CAD2); */
 	}
 
 		body.is-preload-0 *, body.is-preload-0 *:before, body.is-preload-0 *:after {
@@ -112,7 +115,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #444;
+		color: rgb(191,191,191);
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
@@ -152,7 +155,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #555;
+		color: rgb(191,191,191);
 		font-weight: 500;
 	}
 
@@ -165,7 +168,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #555;
+		color: rgb(191,191,191);
 		font-family: "Montserrat", sans-serif;
 		font-weight: 700;
 		line-height: 1.5;
@@ -297,7 +300,7 @@ input, select, textarea {
 			header > :first-child:after {
 				content: '';
 				display: block;
-				background-color: #cccccc;
+				background-color: rgb(191,191,191);
 				height: 1px;
 				margin: 1.5rem 0 1.75rem 0;
 				width: 5rem;
@@ -410,7 +413,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #555;
+		color: rgb(191,191,191);
 		display: block;
 		font-size: 0.8em;
 		font-weight: 500;
@@ -485,7 +488,7 @@ input, select, textarea {
 		}
 
 		select option {
-			color: #555;
+			color: rgb(191,191,191);
 			background: #f4f4f4;
 		}
 
@@ -935,7 +938,7 @@ input, select, textarea {
 		}
 
 		table th {
-			color: #555;
+			color: rgb(191,191,191);
 			font-size: 0.9em;
 			font-weight: 500;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -996,7 +999,7 @@ input, select, textarea {
 		border-radius: 8px;
 		border: 0;
 		box-shadow: inset 0 0 0 1px #cccccc;
-		color: #555 !important;
+		color: rgb(191,191,191) !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -1277,6 +1280,7 @@ input, select, textarea {
 			min-height: 50em;
 			width: 50%;
 			z-index: 1;
+			border-radius: 20px 0px 0px 20px;
 		}
 
 			.panel > .image img {
@@ -1305,9 +1309,10 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.5s ease;
 			-ms-transition: -ms-transform 0.5s ease;
 			transition: transform 0.5s ease;
-			background-color: #ffffff;
+			background-color: #353434;
 			padding: 3em;
 			width: 50%;
+			border-radius: 0px 20px 20px 0px;
 		}
 
 		.panel.inactive {
