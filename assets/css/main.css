@@ -73,6 +73,20 @@ input, select, textarea {
 }
 
 /* Basic */
+	.marco {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transform: scale(0.7);
+		background-image: url('../../images/Marco_Torre_Cropped_Web.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		border-radius: 50%; 
+		height: 20em;
+		width: 20em;
+		margin: auto;
+		/* position: absolute; */
+	}
 
 	@-ms-viewport {
 		width: device-width;
@@ -1265,6 +1279,7 @@ input, select, textarea {
 		transition: opacity 0.5s ease, transform 0.5s ease;
 		max-width: calc(100vw - 6em);
 		width: 86em;
+		height: 50em;
 	}
 
 		.panel > .image {
@@ -1592,3 +1607,5 @@ input, select, textarea {
 		body.is-preload-0 #footer {
 			opacity: 0;
 		}
+
+	
