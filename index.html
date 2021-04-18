@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="./assets/js/util.js"></script>
 	</head>
 	<body class="is-preload-0 is-preload-1">
 
@@ -33,17 +34,17 @@
 								</header>
 								<nav id="nav">
 									<ul class="actions stacked special animated spinY">
-										<li><a href="#work" class="button">Work</a></li>
 										<li><a href="#about" class="button">About</a></li>
-										<li><a href="#contact" class="button">Contact</a></li>
+										<li><a href="#work" class="button">Work</a></li>
+										<!-- <li><a href="#contact" class="button">Contact</a></li> -->
 										<!--<li><a href="#elements" class="button">Elements</a></li>-->
 									</ul>
 								</nav>
 								<ul class="icons">
-									<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
 									<li><a href="https://angel.co/u/marco-torre-1" class="icon brands fab fa-angellist" target='_blank'><span class="label">AngelList</span></a></li>
 									<li><a href="https://github.com/OcramT" class="icon brands fa-github" target='_blank'><span class="label">GitHub</span></a></li>
 									<li><a href="https://www.linkedin.com/in/marco-torre-388286138/" class="icon brands fab fa-linkedin-in" target='_blank'><span class="label">LinkedIn</span></a></li>
+									<li><a href="mailto:marcoatorre@gmail.com" class="icon solid fa-envelope" target='_blank'><span class="label">Email</span></a></li>
 								</ul>
 							</div>
 						</div>
@@ -51,8 +52,9 @@
 
 				<!-- Work -->
 					<article id="work" class="panel secondary">
-						<div class="image">
-							<img src="images/pic02.jpg" alt="" data-position="center center" />
+						<div class="image projects">
+							<img id='project-image' src="images/pic02.jpg" alt="" data-position="center center" />
+							<!-- <div class='project-image mindset'></div> -->
 						</div>
 						<div class="content">
 							<ul class="actions animated spinX">
@@ -60,17 +62,23 @@
 							</ul>
 							<div class="inner">
 								<header>
-									<h2>Work</h2>
+									<h2>Work</h2> 
 									<p>Some stuff<br />
 									I've been working on</p>
 								</header>
-								<a href="https://mind-set.herokuapp.com/#/" target='_blank'><span>Mindset</span></a>
-								<p>A single-page, full-stack clone of Headspace - an app that provides an approachable and visually engaging introduction to
-								meditation built using React, Redux, Ruby on Rails, and Javascript.</p>
-								<a href="https://ocramt.github.io/compYOUter/" target='_blank'><span>CompYOUter</span></a>
-								<p>A project that explores the realm of Human Computer Interaction using machine learning libraries Tensorflow and Posenet.</p>
-								<a href="https://disarray-app.herokuapp.com/#/" target='_blank'><span>Disarray</span></a>
-								<p>An asynchronous, team-based take on Boggle using the MERN stack.</p>
+								<div id='mindset'>
+									<a href="https://mind-set.herokuapp.com/#/" target='_blank'><span>Mindset</span></a>
+									<p>A single-page, full-stack clone of Headspace - an app that provides an approachable and visually engaging introduction to
+									meditation built using React, Redux, Ruby on Rails, and Javascript.</p>
+								</div>
+								<div id='compyouter'>
+									<a href="https://ocramt.github.io/compYOUter/" target='_blank'><span>CompYOUter</span></a>
+									<p>A project that explores the realm of Human Computer Interaction using machine learning libraries Tensorflow and Posenet.</p>
+								</div>
+								<div id='disarray'>
+									<a href="https://disarray-app.herokuapp.com/#/" target='_blank'><span class='disarray'>Disarray</span></a>
+									<p class='disarray'>An asynchronous, team-based take on Boggle using the MERN stack.</p>
+								</div>
 							</div>
 						</div>
 					</article>
@@ -389,7 +397,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
-						<p class="copyright">&copy; Marco Torre</p>
+						<!-- <p class="copyright">&copy; Marco Torre</p> -->
 					</footer>
 
 			</div>

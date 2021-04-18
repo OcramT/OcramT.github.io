@@ -73,16 +73,51 @@ input, select, textarea {
 }
 
 /* Basic */
+
+	.project-image {
+		background-image: url('../../images/pic02.jpg');
+		width: 100%; 
+		height: 100%; 
+		border-radius: 20px 0px 0px 20px;
+		background-size: cover;
+	}
+
+	/* .mindset:hover ~ .project-image {
+  		background-image: url('../../images/mindsetThumb.png');
+		background-size: 80em; 
+		background-repeat: no-repeat;
+		color: turquoise;
+		background-position: center;
+	} */
+
+	/* #work > .content > .inner > .mindset:hover ~ #work > .image > .project-image {
+		border: 5px solid aqua;
+		color: tomato;
+	} */
+
+	/* #work > .image > .project-image:hover {
+		background-image: url('../../images/mindsetThumb.png');
+		border: 5px solid aqua;
+		color: tomato;
+	} */
+
+	/* .compyouter:hover ~ .project-image {
+		background-image: url('../../images/compYOUterThumb.png');
+	}
+
+	.disarray:hover ~ .project-image {
+		background-image: url('../../images/disarrayThumb.png');
+	} */
+
 	.marco {
 		transform: scale(0.7);
 		background-image: url('../../images/Marco_Torre_Cropped_Web.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
-		border-radius: 50%; 
+		border-radius: 50%; 	
 		height: 20em;
 		width: 20em;
 		margin: auto;
-		/* position: absolute; */
 	}
 
 	.greeting {
@@ -121,8 +156,8 @@ input, select, textarea {
 	body {
 		/* background-image: linear-gradient(147deg, #DC8665, #138086, #534666, #CD7672, #EEB462); */
   		background-image: linear-gradient(147deg, #F8B195, #F67280, #C06C84, #6C5B7B, #355C7D);
-		background-size: cover;
-		background-repeat: round;
+		/* background-size: cover;
+		background-repeat: round; */
 		/* background-image: linear-gradient(to right, #FF7B89, #8A5082, #6F5F90, #758EB7, #A5CAD2); */
 	}
 
@@ -841,7 +876,7 @@ input, select, textarea {
 				ul.actions.stacked li > .button {
 					min-width: 15em;
 				}
-
+/* 
 			ul.actions.stacked.special li:after {
 				background-color: #cccccc;
 				content: '';
@@ -851,7 +886,7 @@ input, select, textarea {
 				position: absolute;
 				top: 100%;
 				width: 1px;
-			}
+			} */
 
 			ul.actions.stacked.special li:last-child:after {
 				display: none;
