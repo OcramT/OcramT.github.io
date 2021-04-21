@@ -74,12 +74,9 @@ input, select, textarea {
 
 /* Basic */
 
-	/* #project-image {
-		width: 40em; 
-		height: 100%; 
-		border-radius: 20px 0px 0px 20px;
-		background-size: contain;
-	} */
+	#project-image {
+		background-image: url('../../images/pic02.jpg');
+	}
 
 	.marco {
 		transform: scale(0.7);

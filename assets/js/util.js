@@ -599,16 +599,22 @@ document.addEventListener('DOMContentLoaded', () => {
 	mindset.addEventListener('mouseover', () => {
 		bgImage.style.backgroundImage = "url('images/mindsetThumb.png')"
 		bgImage.style.backgroundPosition = "center"
+		bgImage.onclick = "return true"
+		bgImage.href = "https://mind-set.herokuapp.com/#/"
 	});
 
 	compyouter.addEventListener('mouseover', () => {
 		bgImage.style.backgroundImage = "url('images/compYOUterThumb.png')"
 		bgImage.style.backgroundPosition = "-600px"
+		bgImage.onclick = "return true"
+		bgImage.href = "https://ocramt.github.io/compYOUter/"
 	});
 
 	disarray.addEventListener('mouseover', () => {
 		bgImage.style.backgroundImage = "url('images/disarrayThumb.png')"
 		bgImage.style.backgroundPosition = "center"
+		bgImage.onclick = "return true"
+		bgImage.href = "https://disarray-app.herokuapp.com/#/"
 	});
 
 });
