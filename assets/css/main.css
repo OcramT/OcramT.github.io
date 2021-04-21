@@ -74,39 +74,11 @@ input, select, textarea {
 
 /* Basic */
 
-	.project-image {
-		background-image: url('../../images/pic02.jpg');
-		width: 100%; 
+	/* #project-image {
+		width: 40em; 
 		height: 100%; 
 		border-radius: 20px 0px 0px 20px;
-		background-size: cover;
-	}
-
-	/* .mindset:hover ~ .project-image {
-  		background-image: url('../../images/mindsetThumb.png');
-		background-size: 80em; 
-		background-repeat: no-repeat;
-		color: turquoise;
-		background-position: center;
-	} */
-
-	/* #work > .content > .inner > .mindset:hover ~ #work > .image > .project-image {
-		border: 5px solid aqua;
-		color: tomato;
-	} */
-
-	/* #work > .image > .project-image:hover {
-		background-image: url('../../images/mindsetThumb.png');
-		border: 5px solid aqua;
-		color: tomato;
-	} */
-
-	/* .compyouter:hover ~ .project-image {
-		background-image: url('../../images/compYOUterThumb.png');
-	}
-
-	.disarray:hover ~ .project-image {
-		background-image: url('../../images/disarrayThumb.png');
+		background-size: contain;
 	} */
 
 	.marco {

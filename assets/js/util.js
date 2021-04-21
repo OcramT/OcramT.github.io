@@ -585,18 +585,30 @@
 // 	};
 
 // })(jQuery);
-
 document.addEventListener('DOMContentLoaded', () => {
-
+	
 	const bgImage = document.getElementById('project-image');
+	const image = document.getElementsByClassName('image')[0];
+	console.log(image)
 	const mindset = document.getElementById('mindset');
+	const compyouter = document.getElementById('compyouter');
+	const disarray = document.getElementById('disarray');
+
+	image.style.backgroundImage = "url('./images/pic02.jpg')"
 
 	mindset.addEventListener('mouseover', () => {
-		bgImage.class = "images/mindsetThumb.png";
+		bgImage.style.backgroundImage = "url('images/mindsetThumb.png')"
+		bgImage.style.backgroundPosition = "center"
 	});
 
-	// document.getElementById('mindset').onmouseover = function () {
-	// 	bgImage.src = "images/mindsetThumb.png";
-	// };
+	compyouter.addEventListener('mouseover', () => {
+		bgImage.style.backgroundImage = "url('images/compYOUterThumb.png')"
+		bgImage.style.backgroundPositionX = "-600px"
+	});
+
+	disarray.addEventListener('mouseover', () => {
+		bgImage.style.backgroundImage = "url('images/disarrayThumb.png')"
+		bgImage.style.backgroundPosition = "center"
+	});
 
 });
