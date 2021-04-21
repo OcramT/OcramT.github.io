@@ -603,7 +603,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	compyouter.addEventListener('mouseover', () => {
 		bgImage.style.backgroundImage = "url('images/compYOUterThumb.png')"
-		bgImage.style.backgroundPositionX = "-600px"
+		bgImage.style.backgroundPosition = "-600px"
 	});
 
 	disarray.addEventListener('mouseover', () => {
