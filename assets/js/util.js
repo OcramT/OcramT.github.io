@@ -605,14 +605,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	compyouter.addEventListener('mouseover', () => {
 		bgImage.style.backgroundImage = "url('images/compYOUterThumb.png')"
-		bgImage.style.backgroundPosition = "-600px"
+		bgImage.style.backgroundSize = "cover"
 		bgImage.onclick = "return true"
 		bgImage.href = "https://ocramt.github.io/compYOUter/"
 	});
 
 	disarray.addEventListener('mouseover', () => {
-		bgImage.style.backgroundImage = "url('images/disarrayThumb.png')"
+		bgImage.style.backgroundImage = "url('images/disarrayThumb2.png')"
 		bgImage.style.backgroundPosition = "center"
+		bgImage.style.backgroundSize = "cover"
 		bgImage.onclick = "return true"
 		bgImage.href = "https://disarray-app.herokuapp.com/#/"
 	});
