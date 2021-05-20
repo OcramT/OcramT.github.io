@@ -589,10 +589,10 @@ document.addEventListener('DOMContentLoaded', () => {
 	
 	const bgImage = document.getElementById('project-image');
 	const image = document.getElementsByClassName('image')[0];
-	console.log(image)
 	const mindset = document.getElementById('mindset');
 	const compyouter = document.getElementById('compyouter');
 	const disarray = document.getElementById('disarray');
+	const resume = document.getElementById('resume');
 
 	image.style.backgroundImage = "url('./images/pic02.jpg')"
 
@@ -617,5 +617,14 @@ document.addEventListener('DOMContentLoaded', () => {
 		bgImage.onclick = "return true"
 		bgImage.href = "https://disarray-app.herokuapp.com/#/"
 	});
+
+	resume.addEventListener('mouseover', () => {
+		bgImage.style.backgroundImage = "url('images/MarcoTorre_Resume_Dark_JPG.jpg')"
+		bgImage.style.backgroundPosition = "center"
+		bgImage.style.backgroundSize = "cover"
+		bgImage.onclick = "return true"
+		bgImage.href = "./MarcoTorre_Resume_SWE_Dark.pdf"
+	});
+
 
 });
