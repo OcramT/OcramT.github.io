@@ -588,11 +588,13 @@
 document.addEventListener('DOMContentLoaded', () => {
 	
 	const bgImage = document.getElementById('project-image');
+	const bgResImage = document.getElementById('resume-image');
 	const image = document.getElementsByClassName('image')[0];
 	const mindset = document.getElementById('mindset');
 	const compyouter = document.getElementById('compyouter');
 	const disarray = document.getElementById('disarray');
-	const resume = document.getElementById('resume');
+	const resumeDark = document.getElementById('resume-dark');
+	const resumeLight = document.getElementById('resume-light');
 
 	image.style.backgroundImage = "url('./images/pic02.jpg')"
 
@@ -618,13 +620,20 @@ document.addEventListener('DOMContentLoaded', () => {
 		bgImage.href = "https://disarray-app.herokuapp.com/#/"
 	});
 
-	resume.addEventListener('mouseover', () => {
-		bgImage.style.backgroundImage = "url('images/MarcoTorre_Resume_Dark_JPG.jpg')"
-		bgImage.style.backgroundPosition = "center"
-		bgImage.style.backgroundSize = "cover"
-		bgImage.onclick = "return true"
-		bgImage.href = "./MarcoTorre_Resume_SWE_Dark.pdf"
+	resumeDark.addEventListener('mouseover', () => {
+		bgResImage.style.backgroundImage = "url('images/MarcoTorre_Resume_Dark_JPG.jpg')"
+		bgResImage.style.backgroundPosition = "center"
+		bgResImage.style.backgroundSize = "contain"
+		bgResImage.onclick = "return true"
+		bgResImage.href = "./MarcoTorre_Resume_SWE_Dark.pdf"
 	});
 
+	resumeLight.addEventListener('mouseover', () => {
+		bgResImage.style.backgroundImage = "url('images/MarcoTorre_Resume_Light_JPG.jpg')"
+		bgResImage.style.backgroundPosition = "center"
+		bgResImage.style.backgroundSize = "contain"
+		bgResImage.onclick = "return true"
+		bgResImage.href = "./MarcoTorre_Resume_SWE_Light.pdf"
+	});
 
 });
