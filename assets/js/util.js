@@ -589,14 +589,12 @@ document.addEventListener('DOMContentLoaded', () => {
 	
 	const bgImage = document.getElementById('project-image');
 	const bgResImage = document.getElementById('resume-image');
-	// const image = document.getElementsByClassName('image')[0];
 	const mindset = document.getElementById('mindset');
 	const compyouter = document.getElementById('compyouter');
 	const disarray = document.getElementById('disarray');
 	const resumeDark = document.getElementById('resume-dark');
 	const resumeLight = document.getElementById('resume-light');
 
-	// image.style.backgroundImage = "url('./images/pic02.jpg')"
 
 	mindset.addEventListener('mouseover', () => {
 		bgImage.style.backgroundImage = "url('images/mindsetThumb.png')"
