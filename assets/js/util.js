@@ -585,6 +585,7 @@
 // 	};
 
 // })(jQuery);
+
 document.addEventListener('DOMContentLoaded', () => {
 	
 	const bgImage = document.getElementById('project-image');
