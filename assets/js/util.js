@@ -624,7 +624,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		bgResImage.style.backgroundPosition = "center"
 		bgResImage.style.backgroundSize = "contain"
 		bgResImage.onclick = "return true"
-		bgResImage.href = "./MarcoTorre_Resume_SWE_Dark.pdf"
+		bgResImage.href = "./MarcoTorre_Res_SWE_Dark.pdf"
 	});
 
 	resumeLight.addEventListener('mouseover', () => {
@@ -632,7 +632,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		bgResImage.style.backgroundPosition = "center"
 		bgResImage.style.backgroundSize = "contain"
 		bgResImage.onclick = "return true"
-		bgResImage.href = "./MarcoTorre_Resume_SWE_Light.pdf"
+		bgResImage.href = "./MarcoTorre_Res_SWE_Light.pdf"
 	});
 
 });
