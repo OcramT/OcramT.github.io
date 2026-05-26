@@ -620,11 +620,11 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 
 	resumeDark.addEventListener('mouseover', () => {
-		bgResImage.style.backgroundImage = "url('images/MarcoTorre_SWE_Res_Dark.jpg')"
+		bgResImage.style.backgroundImage = "url('images/MarcoTorre_Resume_2026.jpg')"
 		bgResImage.style.backgroundPosition = "center"
 		bgResImage.style.backgroundSize = "contain"
 		bgResImage.onclick = "return true"
-		bgResImage.href = "./MarcoTorre_SWE_Res_Dark.pdf"
+		bgResImage.href = "./MarcoTorre_Resume_2026.pdf"
 	});
 
 	resumeLight.addEventListener('mouseover', () => {
